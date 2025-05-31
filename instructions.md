@@ -47,7 +47,9 @@ These packages are required for the project:
 - numpy for handling arrays and math
 
 ### 3.Haar Cascade XML Files
-The project uses Haar cascade files (haarcascade_frontalface_default.xml and haarcascade_eye.xml) for face and eye detection. These files are usually included with OpenCV, but if not, you can download them from the official OpenCV GitHub repository. Place the XML files in the same directory as your Python code or update the code to point to their location
+The project uses Haar cascade files (haarcascade_frontalface_default.xml and haarcascade_eye.xml) for face and eye detection. These files are usually included with OpenCV, but if not, you can download them from the official OpenCV GitHub repository. Place the XML files in the same directory as your Python code or update the code to point to their location.
+- https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
+- https://github.com/austinjoyal/haar-cascade-files/blob/master/haarcascade_eye.xml
 
 ### 4. Hardware Connections
 
