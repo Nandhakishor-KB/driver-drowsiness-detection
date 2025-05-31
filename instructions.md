@@ -46,7 +46,10 @@ These packages are required for the project:
 - python3-rpi.gpio for controlling GPIO pins (buzzer, motor)
 - numpy for handling arrays and math
 
-### 3. Hardware Connections
+### 3.Haar Cascade XML Files
+The project uses Haar cascade files (haarcascade_frontalface_default.xml and haarcascade_eye.xml) for face and eye detection. These files are usually included with OpenCV, but if not, you can download them from the official OpenCV GitHub repository. Place the XML files in the same directory as your Python code or update the code to point to their location
+
+### 4. Hardware Connections
 
 #### Raspberry Pi Camera Module
 - Connect the official Raspberry Pi Camera Module to the CSI port on the Raspberry Pi.
@@ -68,7 +71,7 @@ These packages are required for the project:
 - Connect the motor power supply and motor terminals as per the L298N datasheet.
 - Connect the L298N ground to the Raspberry Pi ground.
 
-### 4. Powering the Raspberry Pi
+### 5. Powering the Raspberry Pi
 
 - Use a 5V, 3A power adapter for a stable power supply.
 - You can also use a good quality power bank with 5V output and at least 2.5A current capacity.
