@@ -3,7 +3,11 @@
 ## Overview
 
 This project is designed to detect signs of drowsiness in a driver using computer vision and raise alerts to prevent accidents. The system uses OpenCV and Haar Cascade classifiers to monitor the driver's eyes through a live camera feed.
+## 📜 Research Publication
+This project is based on our research paper published in the **IEEE Xplore Digital Library**:
 
+> **K. B. Nandhakishor**, A. M. A, F. K. A and K. A. F. Fida, "**Driver Drowsiness Detection Using Haar Cascade Classifier**," 2025 International Conference on Electronics, AI and Computing (EAIC), Jalandhar, India, 2025, pp. 1-6.  
+> **DOI:** [10.1109/EAIC66483.2025.11101307](https://doi.org/10.1109/EAIC66483.2025.11101307)
 ## Features
 
 - Real-time eye monitoring
